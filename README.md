@@ -7,10 +7,10 @@ This leads to large amounts of disparate information, which becomes increasingly
 TTX-Cloud is a cloud-based platform that enables version control and design collaboration across multiple BIM and analysis programs.
 
 ### Interoperabilty
-Every 3D modeling program has a different way to represent building elements. TTX unique focus is on bi-directional synchronization of data and geometry between the various programs while respecting the various standards.
+Every 3D modeling program has a different way to represent building elements. TTX-Cloud synchronizes data and geometry between various modeling programs, while respecting their specific standards.
 
 ###Version Control
-Every architectural project undergoes many design iterations. To date no software exists to manage these. TTX-Cloud is developed to keep track of every decision during the design process.
+Every architectural project undergoes many design iterations. TTX-Cloud is developed to keep track of every decision during the design process.
 
 ###Model Insight
 3D models contain lots of inaccessible information. TTX brings transparency into the design process by offering insight through querying, visualizing, comparing and modifying model data.
