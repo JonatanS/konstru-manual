@@ -5,5 +5,4 @@
 * [Getting Started](getting-started.md)
 * [Tutorials](tutorials.md)
 * [Known Limitations](known_limitations.md)
-* Getting
 
