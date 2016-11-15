@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Installation](first-question.md)
+* [Installation](installation.md)
 * [Getting Started](getting-started.md)
 * [Tutorials](tutorials.md)
 * [Known Limitations](known_limitations.md)
