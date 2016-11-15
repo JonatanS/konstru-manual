@@ -5,6 +5,6 @@
 * [Getting Started](getting-started.md)
 * [Tutorials](tutorials.md)
    * The Web User Interface
-   * Desktop Clients
+   * [Desktop Clients](desktop_clients.md)
 * [Known Limitations](known_limitations.md)
 
