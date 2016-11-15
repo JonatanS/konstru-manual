@@ -1,12 +1,9 @@
 
-# Introduction
-This document aims to explain what you can do with TTX-Cloud.
-
-## Why use TTX-Cloud? 
+# What is TTX-Cloud? 
 Architects and Engineers need to utilize a variety of 3D modeling platforms in order to iterate through the building design process. 
 This leads to large amounts of disparate information, which becomes increasingly difficult to manage. 
 
-### We developed TTX-cloud to host the single source of truth for BIM data
+### The single source of truth for BIM data
 TTX-Cloud is a cloud-based platform that enables version control and design collaboration across multiple BIM and analysis programs.
 
 ### Interoperabilty
@@ -17,3 +14,7 @@ Every architectural project undergoes many design iterations. To date no softwar
 
 ###Model Insight
 3D models contain lots of inaccessible information. TTX brings transparency into the design process by offering insight through querying, visualizing, comparing and modifying model data.
+
+###Supported Platforms
+[insert diagram]
+
