@@ -1,6 +1,6 @@
 # Detailed Documentation
 
-##Permission Levels:
+##Permissions
 We have 3 permission levels (Admin, Write and Read) for both Projects and Models.
 
 A Project Admin has the highest privilege. Typically, for any given project, there should only be one or two admins.
