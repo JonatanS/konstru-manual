@@ -9,4 +9,5 @@
 * [Known Limitations](known_limitations.md)
    * [Desktop Clients](limitations_desktop_clients.md)
 * [What has changed from TTX 0.4?](what_has_changed_from_ttx_04.md)
+* Detailed Documentation
 
