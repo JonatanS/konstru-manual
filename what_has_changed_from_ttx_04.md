@@ -4,7 +4,7 @@
 TTX is now a cloud based service. You can review your 3D-Model and its history in the web. There are no more database files.
 
 # Collaborators
-In order to collaborate online, TTX-Cloud has user accounts and [permissions](https://github.com/tt-acm/ttx-cloud/wiki/Project-Service#permissions) to make sure only the right people have access to your model. Users can have admin, write or only read permissions.
+In order to collaborate online, TTX-Cloud has user accounts and [permissions](../detailed_documentation.md#permissions) to make sure only the right people have access to your model. Users can have admin, write or only read permissions.
 
 # Staging
 TTX is more verbose and transparent about what is going to happen to your model. A staging dialog will popup before any change is applied and will tell you in detail about what is going to happen to which element.
