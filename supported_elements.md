@@ -1,5 +1,5 @@
 # Supported Elements
-TTX 0.5 supports a range of new elements and platforms, you can read more about it in detail in the What has changed section. The following tables shows all supported elements by platform and IN or OUT direction. Where IN = able to read from TTX to the platform and OUT = writing to TTX.
+TTX 0.5 supports a range of new elements and platforms, you can read more about it in detail in the  [What has changed section](what_has_changed_from_ttx_04.md). The following tables shows all supported elements by platform and IN or OUT direction. Where IN = able to read from TTX to the platform and OUT = writing to TTX.
 
 ![](images/FeatureMatrix.png)
 
