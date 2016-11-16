@@ -13,3 +13,8 @@ If you want to share the model with a client, for example, you can invite them w
 
 Refer to the matrix below for more info:
 ![](images/DetailedDocumentation/permissionsMatrix.PNG)
+
+## Model Comparison
+The TTX-Cloud Web Application provides functionality to let you compare various states of a model. This means that you can keep exact track of what has changed from one version of a model to the nexct. Or you cna view the differences between two different models:
+{% youtube %}https://youtu.be/Os5yHx21uc4{% endyoutube %}
+
