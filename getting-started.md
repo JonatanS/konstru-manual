@@ -29,7 +29,7 @@ Type in the email of the person to add. If the person already has a TTX-Cloud ac
 The user will receive an email invite to join your project.
 
 Choose yoru permission levels depending on whether you want them to control the project (admin), up/download models (write) or just view models (read). More info on permissions [here](the_web_user_interface.md).
-![](images/GettingStarted/desktop_download.PNG)![](images/GettingStarted/GS_Collabs.png)
+![](images/GettingStarted/GS_Collabs.png)
 
 ##5. Download the model (to a different application)
 Launch the TTX-Cloud plugin from a different desktop application and select the ![](images/GettingStarted/desktop_download.PNG) button.
