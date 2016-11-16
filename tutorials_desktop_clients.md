@@ -1,6 +1,7 @@
 # Desktop Clients
 
 ## Upload a Model to TTX-Cloud
+-- videos go here --
 
 ## Download a Model from TTX-Cloud to a desktop app
 Every platform has the same UI. Once you click TTX 0.5 it will either prompt you to select a model or remember the model you selected last time. The screenshot below shows the key features of the Up/Download dialog:
