@@ -18,6 +18,10 @@ When you create a new project, a new model named 'Master Model' is automatically
 ![](images/GettingStarted/GS_desktopUI.png)
 TTX-Cloud uses the same UI for each of the seven desktop apps. In the desktop application (in my case Revit), select the project, and then the model ('Master Model'). Then press 'Select Model'.
 
+In teh next dialog box, double-check the name of the project and model (1) and then press 'Update TTX' to upload the model to the TTX-Cloud DB.
+![](images/GettingStarted/GS_desktopUI2.png)
 
 ##4. Add Collaborators
 
+
+##5. Download the model (to a different application)
