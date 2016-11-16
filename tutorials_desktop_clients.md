@@ -3,6 +3,11 @@
 ## Upload a Model to TTX-Cloud
 -- videos go here --
 
+
+## Desktop Clients Process
+All clients are providing you a detailed overview about what is going to happen before any action is performed. After asking you if you want to Up or download, TTX will always download the latest version of your model from the server and compare it against your local model. The differences are displayed in a staging dialog which helps you to take informed decisions about changes.
+![](images/UI/StagingProcess.png)
+
 ## Download a Model from TTX-Cloud to a desktop app
 Every platform has the same UI. Once you click TTX 0.5 it will either prompt you to select a model or remember the model you selected last time. The screenshot below shows the key features of the Up/Download dialog:
 
