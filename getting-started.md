@@ -56,7 +56,9 @@ As you enter the Project in the web UI, you will see that the *Master Model* now
 ##6. Model Review 
 One of the key improvements of TTX-Cloud is giving users more transparency about the information contained within a TTX Project. With this in mind, once you've uploaded your first Model, we highly suggest spending a minute to review the state of this Model via the new web interface.
 
-Model Review with the TTX-Cloud webpage is two-fold. First the user is given a 'Report ............. 
+Model Review with the TTX-Cloud webpage is two-fold. First the user is given a 'Report .............
+
+![](images/GettingStarted/Model Report.PNG)
 
 
 
