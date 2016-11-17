@@ -29,13 +29,13 @@ Once you have the desktop application open (in my case Revit), select the projec
 In the next dialog box, double-check the name of the project and model (1) and then press *Update TTX* to upload the model to the TTX-Cloud DB.
 When prompted with additional dialogs, press *OK*.
 
-*Note: If the Project/Model indicated in 1. below is incorrect, you will need to use the 'Change Model' button, which will redirect you to the previous TTX-Cloud window which lists your available Projects. Simply choose the correct Project and Model (as per #3. Upload a Model) then 'Select Model' to be directed back to the up/down interface.* 
+*Note: If the Project/Model indicated in 1. below is incorrect, you will need to use the 'Change Model' button, which will redirect you to the previous TTX-Cloud window which lists your available Projects. Simply choose the correct Project and Model (as per #3. 'Upload a Model') then 'Select Model' to be directed back to the up/down interface.* 
 
 ![](images/GettingStarted/GS_desktopUI2.png)
 
 When you now enter the project in the web UI, you will see that the *Master Model* contains one version now. We just created our first version of this model. Every time that we make changes to it, a new version is added for this model. 
 ##4. Add Collaborators
-If you want to share this project with anybody, you can add a collaborator in the *Project Settings* tab  under *Collaborators*.
+If you want to share this project with a colleague or client, you can add a collaborator in the *Project Settings* tab  under *Collaborators*.
 Type in the email of the person to add. If the person already has a TTX-Cloud account, select them from the drop-down. Else, you'll have to fill out their name and email. Then press *Save*. 
 The user will receive an email invite to join your project.
 
