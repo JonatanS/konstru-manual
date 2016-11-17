@@ -6,7 +6,7 @@ The TTX-Cloud web application works best in a Chrome browser, but also in Firefo
 
 ##2. Create a Project
 ![](images/GettingStarted/GS_createProject1.PNG)
-Before you are able to do anything with TTX cloud you must create a TTX Project. This is done directly from the web address listed above (**https://ttx-webapp.herokuapp.com/** ).
+The first step in working with TTX is the creation of a TTX Project. This is done directly from the web address listed above (**https://ttx-webapp.herokuapp.com/** ).
 
 Click the large green button to create a new project. Choose a name and description. For this demo, I name the project *Large Tower*.
 
@@ -16,25 +16,35 @@ Click the large green button to create a new project. Choose a name and descript
 
 When you create a new project, a new model named *Master Model* is automatically created.
 
-Once you've created a new Project, you are now able to upload a Model. This step is done via the desktop  side of things.
+Once you've created a new Project, you are now able to upload a Model. This step is done via the desktop  side of things. Generally speaking, your first Project upload will be to the *Master Model*, giving your *Master Model* it's first *Version*. 
 
 ##3. Upload a Model
 ![](images/GettingStarted/GS_desktopUI.png)
-TTX-Cloud uses the same UI for each of the seven desktop apps. To launch the desktop app you should first review the installation section of this document to ensure TTX-Cloud will be available to you. Once installed, you will be able to launch the TTX-Cloud app directly from your platform (see installation for toolbar specifics). Note that TTX-Cloud RAM runs as an external .exe file, and requires no installation (and wont be found in the RAM toolbar). 
+TTX-Cloud uses the same UI for each of the seven desktop apps. To launch the desktop app you should first review the installation section of this document to ensure TTX-Cloud will be available to you. Once installed, you will be able to launch the TTX-Cloud app directly from your platform (see installation for toolbar specific button locations). Note that TTX-Cloud RAM runs as an external .exe file, and requires no installation (and thus also wont be found in the RAM toolbar, as it is run from it's Start Menu location). 
 
 Once you have the desktop application open (in my case Revit), select the project, and then the model (*Master Model*). Then press *Select Model*.
 
-*Note: that if you've only just created the Project, you may need to refresh the desktop side user interface for the Project you've created to appear in the list of your Projects.*
+*Note: If you've only just created the Project, you may need to refresh the desktop side user interface for the Project you've created to appear in the list of your Projects.*
 
 In the next dialog box, double-check the name of the project and model (1) and then press *Update TTX* to upload the model to the TTX-Cloud DB.
 When prompted with additional dialogs, press *OK*.
 
-*Note: If the Project/Model indicated in 1. below is incorrect, you will need to use the 'Change Model' button, which will redirect you to the previous TTX-Cloud window which lists your available Projects. Simply choose the correct Project and Model (as per #3. 'Upload a Model') then 'Select Model' to be directed back to the up/down interface.* 
+*Note: If the Project/Model indicated in user interface #1. below is incorrect, you will need to use the 'Change Model' button, which will redirect you to the previous TTX-Cloud window which lists your available Projects. Choose the correct Project and Model (as per #3. 'Upload a Model') then 'Select Model' to be directed back to the up/down interface.* 
 
 ![](images/GettingStarted/GS_desktopUI2.png)
 
-When you now enter the project in the web UI, you will see that the *Master Model* contains one version now. We just created our first version of this model. Every time that we make changes to it, a new version is added for this model. 
-##4. Add Collaborators
+Once the Update TTX Model process is complete, you can head directly to the web UI to review what was just added to your *Master Model*.  
+
+As you enter the Project in the web UI, you will see that the *Master Model* now contains one version. We just created our first version of this model!. Every subsequent time that we upload to this *Master Model* we are adding new *Versions* to the Model.  
+
+##4. Add Collaborators  
+Collaborator's to a TTX-Cloud Project are divided into 3 levels of access.  
+Admin = Full Permissions to TTX Project
+Write = Able to upload and download Models/Versions of the TTX Porject to local modeling Platforms (ie make changes) + 
+Read = Able to only view Models/Versions on the TTX-Cloud website.
+
+
+
 If you want to share this project with a colleague or client, you can add a collaborator in the *Project Settings* tab  under *Collaborators*.
 Type in the email of the person to add. If the person already has a TTX-Cloud account, select them from the drop-down. Else, you'll have to fill out their name and email. Then press *Save*. 
 The user will receive an email invite to join your project.
