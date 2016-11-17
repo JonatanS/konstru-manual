@@ -14,6 +14,4 @@ Every architectural project undergoes many design iterations. TTX-Cloud is devel
 
 ##Model Insight
 3D models contain lots of inaccessible information. TTX brings transparency into the design process by offering insight through querying, visualizing, comparing and modifying model data.
-
-##Supported Platforms
  
