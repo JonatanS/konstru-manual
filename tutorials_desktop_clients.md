@@ -2,10 +2,16 @@
 
 ## Upload a Model to TTX-Cloud
 ### Revit Upload Tutorial
+{% youtube %}https://youtu.be/NGlYKq0ZMjE{% endyoutube %}
 
 ###Revit Update Tutorial
+{% youtube %}https://youtu.be/x6Yzr8Wro70{% endyoutube %}
 
-### 
+###Grasshopper Tutorial
+{% youtube %}https://youtu.be/ZB_b3LUBnFw{% endyoutube %}
+
+###Excel Tutorial
+{% youtube %}https://youtu.be/R6K7wTuYBMI{% endyoutube %}
 
 
 ## Desktop Clients Process
