@@ -40,15 +40,17 @@ When prompted with additional dialogs, press *OK*.
  These two questions were asked by many TTX0.4 users, and TTX-Cloud looks to answer them via two steps in the process which are discussed in #5 + #6: 'Staging' and 'Model Review'. The goal of these two steps is to give the user more detail about the data that's being transferred between your platform and TTX-Cloud, and also between TTX-Cloud and your platform. Staging specifically allows the user to cancel the upload/download before making any changes to either the TTX-Cloud model (on upload) or to their local platform model (on download). 
 ![](images/GettingStarted/Staging and Model Review - One Way translation.PNG)
 ##5. Staging
-Staging takes place on both upload and download and allows the user to review the objects that are part of the specific upload/download before actually making the changes to the TTX-Cloud model (via an upload) or changes to your local model (via a download). The key value identified in the Staging window is the 'Status' of an object: 
+Staging takes place on both upload and download and allows the user to review the objects that are part of the specific upload/download before actually making the changes to the TTX-Cloud model (via an upload) or changes to your local model (via a download). The user can prevent individual changes to objects by unchecking the 'Apply' button, or stop the process all together with the 'Cancel' button. 
+
+The key value identified in the Staging window is the 'Status' of an object: 
 
 **NEW**: Object is being added to TTX-Model/Platform model for the first time.
 
 **UPDATED**: Object that was already present in TTX-Model/Platform and has had some attribute (geometric or otherwise) altered by the last TTX-Cloud operation. Updated objects 
 
-**DELETED**: Object that was present in TTX-Model/Platform before the update, but which during the update was not part of the data, and hence is considered deleted.  
+**DELETED**: Object that was present in TTX-Model/Platform before the update, but which during the update was not part of the data, and hence is about to be deleted.  
 
-![](images/GettingStarted/Staging upload window.PNG)
+![](images/GettingStarted/staging window with callouts.png)
 
 
 
