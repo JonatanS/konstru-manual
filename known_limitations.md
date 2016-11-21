@@ -15,7 +15,10 @@ Revit does not support special characters in names for Levels or Grids. The foll
 ```A-Z a-z 0-9``` and ```. _-/'()"```. All Element names are written to the ```TTX_Name``` Text parameter. It should be created automatically - if not, create it manually.
 
 ## Custom Profiles
-Revit custom profile creation is currently deactivated.
+Revit handles profiles in the following order:
+1. Search for types loaded in the document
+2. Search for standard types on the local drive
+3. Create new family and type
 
 # Excel
 Excel can only be used to manipulate parameter values, change sections (by name) and materials (by name). Geometries and IDs can not be modified.
