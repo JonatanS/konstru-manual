@@ -1,6 +1,9 @@
 # Known Limitations
 
 # Revit
+## IDs
+Keep in mind that two people using the same TTX Model in Revit should sync their Revit Models using Worksharing. Otherwise they'll have different IDs in both local Models which might cause confusion.
+
 ## Elements
 Supported TTX element types are: Columns, Braces, Beams, Floors, Walls, Grids, Groups, Levels. Analytical elements such as loads are not supported.
 
