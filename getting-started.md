@@ -64,15 +64,7 @@ One of the key improvements of TTX-Cloud is giving users more transparency about
 
 Model Review with the TTX-Cloud webpage is two-fold. First, when opening a model, the user is presented a tabular report about what the last update to a Model consisted of, whether object were added, deleted, updated or unchanged and the total number of these changes per object type. Users can then drill down into the type of change made, and further into the actual list of changes by object type. Secondly, you are able to access a 3D preview of the model in question directly from the Report interface. 
 
-When reviewing large models it can be very useful to limit the scope of area, or object type you are interested in. In TTX-Cloud, these tools are available to you for both Report Review and 3D view and include the ability to limit the vertical range of objects (via 'Crop'), toggle on or off the object types being reported/displayed (via 'Type') and to toggle on or off objects by their 'Status'. 
-
-
-
-
-
-
-
-
+When reviewing large models it can be very useful to limit the scope of area, or object type you are interested in. In TTX-Cloud, these tools are available to you for both Report Review and 3D view via the 'Details' interface, and include the ability to limit the vertical range of objects (via 'Crop'), toggle on or off the object types being reported/displayed (via 'Type') and to toggle on or off objects by their 'Status'. 
 
 
 
