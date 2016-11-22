@@ -2,17 +2,13 @@
 
 ## Upload a Model to TTX-Cloud
 ### Revit Upload Tutorial
-{% youtube %}https://youtu.be/NGlYKq0ZMjE{% endyoutube %}
-
-###Revit Update Tutorial
-{% youtube %}https://youtu.be/x6Yzr8Wro70{% endyoutube %}
+{% youtube %}https://youtu.be/dnImCMEVGQo{% endyoutube %}
 
 ###Grasshopper Tutorial
 {% youtube %}https://youtu.be/ZB_b3LUBnFw{% endyoutube %}
 
 ###Excel Tutorial
-{% youtube %}https://youtu.be/R6K7wTuYBMI{% endyoutube %}
-
+{% youtube %}https://youtu.be/96-rm1MK9i8{% endyoutube %}
 
 ## Desktop Clients Process
 All clients are providing you a detailed overview about what is going to happen before any action is performed. After asking you if you want to Up or download, TTX will always download the latest version of your model from the server and compare it against your local model. The differences are displayed in a staging dialog which helps you to take informed decisions about changes.
