@@ -7,7 +7,7 @@
 ###Grasshopper Tutorial
 {% youtube %}https://youtu.be/ZB_b3LUBnFw{% endyoutube %}
 
-###Excel Tutorial
+### Tutorial: Batch-edit model data with Excel
 {% youtube %}https://youtu.be/96-rm1MK9i8{% endyoutube %}
 
 ## Desktop Clients Process
