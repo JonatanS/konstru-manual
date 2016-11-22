@@ -52,8 +52,6 @@ The key value identified in the Staging window is the 'Status' of an object:
 
 ![](images/GettingStarted/staging window with callouts.png)
 
-
-
 Once the Update TTX Model process is complete, you can head directly to the web UI to review what was just added to your *Master Model*.  
 
 As you enter the Project in the web UI, you will see that the *Master Model* now contains one version. We just created our first version of this model!. Every subsequent time that we upload to this *Master Model* we are adding new *Versions* to the Model.  
@@ -66,6 +64,7 @@ Model Review with the TTX-Cloud webpage is two-fold. First, when opening a model
 
 When reviewing large models it can be very useful to limit the scope of area, or object type you are interested in. In TTX-Cloud, these tools are available to you for both Report Review and 3D view via the 'Details' interface, and include the ability to limit the vertical range of objects (via 'Crop'), toggle on or off the object types being reported/displayed (via 'Type') and to toggle on or off objects by their 'Status'. 
 
+For more details on Model Review check the Tutorials section.
 
 
 ##7. Add Collaborators  
@@ -84,4 +83,13 @@ The user will receive an email invite to join your project.
 
 ##8. Download the model (to a different application)
 Launch the TTX-Cloud plugin from a different desktop application and select the ![](images/GettingStarted/desktop_download.PNG) button.
+
+Launch the TTX-Cloud plugin from the desktop application you are using. You should first check that the correct Project and Model are listed in the user interface, and if necessary use the 'Change Model' button. Secondly, you should review the specific Version you are about to download from the dropdown menu and ensure the the 'Delete existing Elements' button is unchecked. 
+
+
+
+
+
+
+'Delete existing elements' refers to objects that may be present in the platform model you are about download to, but are not part of the TTX-Cloud model you have chosen to download. Almost certainly there will be objects present in your platform model that are not present in the TTX-Cloud model, thus you will want to ensure they are not deleted by unchecking this box. 
 
