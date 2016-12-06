@@ -2,7 +2,7 @@
 
 ## Upload a Model to TTX-Cloud
 ### Revit Upload Tutorial
-{% youtube %}https://youtu.be/dnImCMEVGQo{% endyoutube %}
+{% youtube %}https://youtu.be/d2pf8oAb3Kw{% endyoutube %}
 
 ###Grasshopper Tutorial
 {% youtube %}https://youtu.be/ZB_b3LUBnFw{% endyoutube %}
