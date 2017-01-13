@@ -38,42 +38,42 @@ When prompted with additional dialogs, press *OK*.
 
 ### What just happened (Upload Staging) / What's about to happen? (Download Staging)
 
- These two questions were asked by many TTX0.4 users, and TTX-Cloud looks to answer them via two steps in the process which are discussed in #5 + #6: 'Staging' and 'Model Review'. The goal of these two steps is to give the user more detail about the data that's being transferred between your platform and TTX-Cloud, and also between TTX-Cloud and your platform. Staging specifically allows the user to cancel the upload/download before making any changes to either the TTX-Cloud model (on upload) or to their local platform model (on download). 
+ These two questions were asked by many users, and Konstru looks to answer them via two steps in the process which are discussed in #5 + #6: 'Staging' and 'Model Review'. The goal of these two steps is to give the user more detail about the data that's being transferred between your platform and Konstru , and also between Konstru and your platform. Staging specifically allows the user to cancel the upload/download before making any changes to either the Konstru model (on upload) or to their local platform model (on download). 
 ![](images/GettingStarted/Staging and Model Review - One Way translation.PNG)
 ##5. Staging
-Staging takes place on both upload and download and allows the user to review the objects that are part of the specific upload/download before actually making the changes to the TTX-Cloud model (via an upload) or changes to your local model (via a download). The user can prevent individual changes to objects by unchecking the 'Apply' button, or stop the process all together with the 'Cancel' button. 
+Staging takes place on both upload and download and allows the user to review the objects that are part of the specific upload/download before actually making the changes to the Konstru model (via an upload) or changes to your local model (via a download). The user can prevent individual changes to objects by unchecking the 'Apply' button, or stop the process all together with the 'Cancel' button. 
 
 The key value identified in the Staging window is the 'Status' of an object: 
 
-**NEW**: Object is being added to TTX-Model/Platform model for the first time.
+**NEW**: Object is being added to Konstru/Platform model for the first time.
 
-**UPDATED**: Object that was already present in TTX-Model/Platform and has had some attribute (geometric or otherwise) altered by the last TTX-Cloud operation. Updated objects 
+**UPDATED**: Object that was already present in Konstru/Platform and has had some attribute (geometric or otherwise) altered by the last Konstru operation. Updated objects 
 
-**DELETED**: Object that was present in TTX-Model/Platform before the update, but which during the update was not part of the data, and hence is about to be deleted.  
+**DELETED**: Object that was present in Konstru/Platform before the update, but which during the update was not part of the data, and hence is about to be deleted.  
 
 ![](images/GettingStarted/staging window with callouts.png)
 
-Once the Update TTX Model process is complete, you can head directly to the web UI to review what was just added to your *Master Model*.  
+Once the Update Konstru Model process is complete, you can head directly to the web UI to review what was just added to your *Master Model*.  
 
 As you enter the Project in the web UI, you will see that the *Master Model* now contains one version. We just created our first version of this model!. Every subsequent time that we upload to this *Master Model* we are adding new *Versions* to the Model.  
 
 
 ##6. Model Review 
-One of the key improvements of TTX-Cloud is giving users more transparency about the information contained within a TTX Project. With this in mind, once you've uploaded your first Model, we highly suggest spending a minute to review the state of this Model via the new web interface.
+One of the key improvements of Konstru is giving users more transparency about the information contained within a Konstru Project. With this in mind, once you've uploaded your first Model, we highly suggest spending a minute to review the state of this Model via the new web interface.
 
-Model Review with the TTX-Cloud webpage is two-fold. First, when opening a model, the user is presented a tabular report about what the last update to a Model consisted of, whether object were added, deleted, updated or unchanged and the total number of these changes per object type. Users can then drill down into the type of change made, and further into the actual list of changes by object type. Secondly, you are able to access a 3D preview of the model in question directly from the Report interface. 
+Model Review with the Konstru webpage is two-fold. First, when opening a model, the user is presented a tabular report about what the last update to a Model consisted of, whether object were added, deleted, updated or unchanged and the total number of these changes per object type. Users can then drill down into the type of change made, and further into the actual list of changes by object type. Secondly, you are able to access a 3D preview of the model in question directly from the Report interface. 
 
-When reviewing large models it can be very useful to limit the scope of area, or object type you are interested in. In TTX-Cloud, these tools are available to you for both Report Review and 3D view via the 'Details' interface, and include the ability to limit the vertical range of objects (via 'Crop'), toggle on or off the object types being reported/displayed (via 'Type') and to toggle on or off objects by their 'Status'. 
+When reviewing large models it can be very useful to limit the scope of area, or object type you are interested in. In Konstru, these tools are available to you for both Report Review and 3D view via the 'Details' interface, and include the ability to limit the vertical range of objects (via 'Crop'), toggle on or off the object types being reported/displayed (via 'Type') and to toggle on or off objects by their 'Status'. 
 
 For more details on Model Review check the Tutorials section.
 
 
 ##7. Add Collaborators  
-If you want to share this project with a colleague or client, you can add a 'Collaborator' in the *Project Settings* tab  under *Collaborators*. Collaborators to a TTX-Cloud project are added to allow users that did not create the Project to interact with the Models and Versions that exist within a Project.
+If you want to share this project with a colleague or client, you can add a 'Collaborator' in the *Project Settings* tab  under *Collaborators*. Collaborators to a Konstru project are added to allow users that did not create the Project to interact with the Models and Versions that exist within a Project.
 
 You are able to choose the permission levels of your chosen Collaborators depending on whether you want them to control the project (admin), up/download models (write) or just view models (read). More info on permissions [here](the_web_user_interface.md).
 
-To add Collaborators to a Project: Open your Project, then access the *Project Settings* interface as seen below. Type in the email of the person to add. If the person already has a TTX-Cloud account, select them from the drop-down. Else, you'll have to fill out their name and email. Next stop is to define the Permission's level for the collaborator (see above)...and then press *Save*. 
+To add Collaborators to a Project: Open your Project, then access the *Project Settings* interface as seen below. Type in the email of the person to add. If the person already has a Konstru account, select them from the drop-down. Else, you'll have to fill out their name and email. Next stop is to define the Permission's level for the collaborator (see above)...and then press *Save*. 
 The user will receive an email invite to join your project.
 
 
@@ -83,13 +83,13 @@ The user will receive an email invite to join your project.
 
 
 ##8. Download the model (to a different application)
-Launch the TTX-Cloud plugin from a different desktop application and select the ![](images/GettingStarted/desktop_download.PNG) button.
+Launch the Konstru plugin from a different desktop application and select the ![](images/GettingStarted/desktop_download.PNG) button.
 
-Launch the TTX-Cloud plugin from the desktop application you are using. You should first check that the correct Project and Model are listed in the user interface, and if necessary use the 'Change Model' button. Secondly, you should review the specific Version you are about to download from the dropdown menu and ensure the the 'Delete existing Elements' button is unchecked. 
+Launch the Konstru plugin from the desktop application you are using. You should first check that the correct Project and Model are listed in the user interface, and if necessary use the 'Change Model' button. Secondly, you should review the specific Version you are about to download from the dropdown menu and ensure the the 'Delete existing Elements' button is unchecked. 
 
    ![](images/GettingStarted/download user interface_2.PNG)
 
-'Delete existing elements' refers to objects that may be present in the platform model you are about download to, but are not part of the TTX-Cloud model you have chosen to download. Almost certainly there will be objects present in your platform model that are not present in the TTX-Cloud model (tags etc), thus you will want to ensure they are not deleted by unchecking this box. 
+'Delete existing elements' refers to objects that may be present in the platform model you are about download to, but are not part of the Konstru model you have chosen to download. Almost certainly there will be objects present in your platform model that are not present in the Konstru model (tags etc), thus you will want to ensure they are not deleted by unchecking this box. 
 
 Note: Even if you forget to uncheck this button, you can prevent the changes from taking place to your model by canceling at the 'Staging' window. 
 
