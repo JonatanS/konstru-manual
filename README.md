@@ -4,7 +4,7 @@
 
 Architects and Engineers need to utilize a variety of 3D modeling platforms in order to iterate through the building design process. This leads to large amounts of disparate information, which becomes increasingly difficult to manage.
 
-## The single source of truth for BIM data
+## The Single Source of Truth for BIM Data
 
 Konstru is a cloud-based platform that enables version control and design collaboration across multiple BIM and analysis programs.
 
