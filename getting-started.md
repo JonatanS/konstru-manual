@@ -32,7 +32,7 @@ When prompted with additional dialogs, press *OK*.
 
 *Note: If the Project/Model indicated in user interface #1. below is incorrect, you will need to use the 'Change Model' button, which will redirect you to the previous Konstru window which lists your available Projects. Choose the correct Project and Model (as per #3. 'Upload a Model') then 'Select Model' to be directed back to the up/down interface.* 
 
-![](images/GettingStarted/GS_desktopUI2.png)
+![](/assets/05.png)
 
 
 
