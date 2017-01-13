@@ -1,4 +1,4 @@
-![](/images/supportedPlatforms.png)
+![](/assets/supportedPlatforms.png)
 
 # What is Konstru? 
 Architects and Engineers need to utilize a variety of 3D modeling platforms in order to iterate through the building design process. 
