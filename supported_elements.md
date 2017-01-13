@@ -1,5 +1,5 @@
 # Supported Elements
-Konstru supports a range of new elements and platforms. The following tables shows all supported elements by platform and IN or OUT direction. Where IN = able to read from TTX to the platform and OUT = writing to TTX.
+Konstru supports a range of new elements and platforms. The following tables shows all supported elements by platform and IN or OUT direction. Where IN = able to read from Konstru to the platform and OUT = writing to Konstru.
 
 ![](images/FeatureMatrix.png)
 
