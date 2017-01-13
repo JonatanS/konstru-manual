@@ -20,17 +20,17 @@ When you create a new project, a new model named *Master Model* is automatically
 Once you've created a new Project, you are now able to upload a Model. This step is done via the desktop  side of things. Generally speaking, your first Project upload will be to the *Master Model*, giving your *Master Model* it's first *Version*. 
 
 ##3. Upload a Model
-![](images/GettingStarted/GS_desktopUI.png)
-TTX-Cloud uses the same UI for each of the seven desktop apps. To launch the desktop app you should first review the installation section of this document to ensure TTX-Cloud will be available to you. Once installed, you will be able to launch the TTX-Cloud app directly from your platform (see installation for toolbar specific button locations). Note that TTX-Cloud RAM runs as an external .exe file, and requires no installation (and thus also wont be found in the RAM toolbar, as it is run from it's Start Menu location). 
+![](/assets/04.png)
+Konstru uses the same UI for each of the seven desktop apps. To launch the desktop app you should first review the installation section of this document to ensure Konstru will be available to you. Once installed, you will be able to launch the Konstru app directly from your platform (see installation for toolbar specific button locations). Note that Konstru RAM runs as an external .exe file, and requires no installation (and thus also wont be found in the RAM toolbar, as it is run from it's Start Menu location). 
 
 Once you have the desktop application open (in my case Revit), select the project, and then the model (*Master Model*). Then press *Select Model*.
 
 *Note: If you've only just created the Project, you may need to refresh the desktop side user interface for the Project you've created to appear in the list of your Projects.*
 
-In the next dialog box, double-check the name of the project and model (1) and then press *Update TTX* to upload the model to the TTX-Cloud DB.
+In the next dialog box, double-check the name of the project and model (1) and then press *Update Konstru* to upload the model to the Konstru DB.
 When prompted with additional dialogs, press *OK*.
 
-*Note: If the Project/Model indicated in user interface #1. below is incorrect, you will need to use the 'Change Model' button, which will redirect you to the previous TTX-Cloud window which lists your available Projects. Choose the correct Project and Model (as per #3. 'Upload a Model') then 'Select Model' to be directed back to the up/down interface.* 
+*Note: If the Project/Model indicated in user interface #1. below is incorrect, you will need to use the 'Change Model' button, which will redirect you to the previous Konstru window which lists your available Projects. Choose the correct Project and Model (as per #3. 'Upload a Model') then 'Select Model' to be directed back to the up/down interface.* 
 
 ![](images/GettingStarted/GS_desktopUI2.png)
 
