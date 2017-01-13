@@ -88,7 +88,7 @@ Launch the Konstru plugin from a different desktop application and select the ![
 
 Launch the Konstru plugin from the desktop application you are using. You should first check that the correct Project and Model are listed in the user interface, and if necessary use the 'Change Model' button. Secondly, you should review the specific Version you are about to download from the dropdown menu and ensure the the 'Delete existing Elements' button is unchecked. 
 
-   ![](images/GettingStarted/download user interface_2.PNG)
+![](/assets/DownloadSteps.png)
 
 'Delete existing elements' refers to objects that may be present in the platform model you are about download to, but are not part of the Konstru model you have chosen to download. Almost certainly there will be objects present in your platform model that are not present in the Konstru model (tags etc), thus you will want to ensure they are not deleted by unchecking this box. 
 
