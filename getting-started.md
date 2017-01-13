@@ -7,7 +7,7 @@ The Konstru web application works best in a Chrome browser, but also in Firefox 
 ##2. Create a Project
 //needs image
 
-The first step in working with Konstru is the creation of a Konstru Project. This is done directly from the web address listed above (**https://ttx-webapp.herokuapp.com/** ).
+The first step in working with Konstru is the creation of a Konstru Project. This is done directly from the web address listed above (**https://app.konstru.com/** ).
 
 Click the large green button to create a new project. Choose a name and description. For this demo, I name the project *Large Tower*.
 
