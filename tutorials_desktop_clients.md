@@ -1,6 +1,6 @@
 # Desktop Clients
 
-## Upload a Model to TTX-Cloud
+## Upload a Model to Konstru
 ### Revit Upload Tutorial
 {% youtube %}https://youtu.be/d2pf8oAb3Kw{% endyoutube %}
 
