@@ -40,6 +40,7 @@ When prompted with additional dialogs, press *OK*.
 
  These two questions were asked by many users, and Konstru looks to answer them via two steps in the process which are discussed in #5 + #6: 'Staging' and 'Model Review'. The goal of these two steps is to give the user more detail about the data that's being transferred between your platform and Konstru , and also between Konstru and your platform. Staging specifically allows the user to cancel the upload/download before making any changes to either the Konstru model (on upload) or to their local platform model (on download). 
 ![](images/GettingStarted/Staging and Model Review - One Way translation.PNG)
+
 ##5. Staging
 Staging takes place on both upload and download and allows the user to review the objects that are part of the specific upload/download before actually making the changes to the Konstru model (via an upload) or changes to your local model (via a download). The user can prevent individual changes to objects by unchecking the 'Apply' button, or stop the process all together with the 'Cancel' button. 
 
