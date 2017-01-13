@@ -1,12 +1,13 @@
 #Getting Started
 
 ##1. Create a User Account
-Go to **https://ttx-webapp.herokuapp.com/** and sign up with your TT email address.
-The TTX-Cloud web application works best in a Chrome browser, but also in Firefox and Internet Explorer (IE being the slowest of the three).
+Go to **https://app.konstru.com/** and sign up with your email address.
+The Konstru web application works best in a Chrome browser, but also in Firefox and Internet Explorer.
 
 ##2. Create a Project
-![](images/GettingStarted/GS_createProject1.PNG)
-The first step in working with TTX is the creation of a TTX Project. This is done directly from the web address listed above (**https://ttx-webapp.herokuapp.com/** ).
+//needs image
+
+The first step in working with Konstru is the creation of a Konstru Project. This is done directly from the web address listed above (**https://ttx-webapp.herokuapp.com/** ).
 
 Click the large green button to create a new project. Choose a name and description. For this demo, I name the project *Large Tower*.
 
