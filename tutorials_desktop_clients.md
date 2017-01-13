@@ -17,7 +17,7 @@ All clients are providing you a detailed overview about what is going to happen 
 ## Download a Model from Konstru to a desktop app
 Every platform has the same UI. Once you click Konstru it will either prompt you to select a model or remember the model you selected last time. The screenshot below shows the key features of the Up/Download dialog:
 
-![](images/UI/UpDownloadDialog.png)
+![](/assets/05.png)
 After clicking Up or Download the process is always the same. Konstru will compare the model on the server against the model you are about to upload or download to and display the changes in the staging UI.
 ## The Staging UI
 The staging UI tells you about the differences between your local model and the model on the server. It brings transparency by previewing each change that is going to happen. You can review the changes that are about to happen element by element. Every line represents one element. If you are in doubt or don't want to perform any changes you can click Cancel to stop the process.
