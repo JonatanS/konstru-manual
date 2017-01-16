@@ -2,13 +2,9 @@
 
 # What is Konstru?
 
-Architects and Engineers need to utilize a variety of 3D modeling platforms in order to iterate through the building design process. This leads to large amounts of disparate information, which becomes increasingly difficult to manage.
+Architects and Structural Engineers use a variety of 3D modeling platforms in order to iterate through the building design process. These different software packages are not interoperable, so engineers cannot share a model built in Revit with someone working on that same model in Tekla. Konstru is a cloud-based platform that enables version control, design collaboration, user permission control, and model comparison across multiple BIM and analysis programs.
 
-## The Single Source of Truth for BIM Data
-
-Konstru is a cloud-based platform that enables version control and design collaboration across multiple BIM and analysis programs.
-
-## Interoperabilty
+## Interoperability
 
 Every 3D modeling program has a different way to represent building elements. Konstru synchronizes analysis data and geometry between various modeling programs, while respecting their specific standards. More details [here](supported_elements.md).
 
