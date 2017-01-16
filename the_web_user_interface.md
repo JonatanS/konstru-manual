@@ -4,6 +4,8 @@
 {% youtube %}https://youtu.be/Kd9Trjz9JDM?list=PLCGmyoTJ5YJ-56CxzMGEqFCyel0fF5VIv{% endyoutube %}
 
 ## Collaborators/ Permissions
+{% youtube %}https://youtu.be/2KKwaZdKsyE?list=PLCGmyoTJ5YJ-56CxzMGEqFCyel0fF5VIv{% endyoutube %}
+
 We have 3 permission levels (Admin, Write and Read) for both Projects and Models.
 
 A Project Admin has the highest privilege. Typically, for any given project, there should only be one or two admins.
