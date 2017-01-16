@@ -16,3 +16,14 @@ Every architectural project undergoes many design iterations. Konstru is develop
 
 3D models contain lots of inaccessible information. Konstru brings transparency into the design process by offering insight through querying, visualizing, comparing and modifying model data.
 
+```
+{% youtube %}https://youtu.be/Gat3A-H-VSw{% endyoutube %}
+```
+
+```
+
+
+```
+
+
+
