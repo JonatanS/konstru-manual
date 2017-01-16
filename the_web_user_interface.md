@@ -14,7 +14,14 @@ If you want to share the model with a client, for example, you can invite them w
 Refer to the matrix below for more info:
 ![](images/DetailedDocumentation/permissionsMatrix.PNG)
 
-## Model Comparison
+## Version Control for Models
+At it's backend, Konstru has a powerful versioning database. This means that you can do operations such as comparing different versions of a model, or different models altogether, and also revert changes.
+
+### Model Comparison
 The Konstru Web Application provides functionality to let you compare various states of a model. This means that you can keep exact track of what has changed from one version of a model to the next. Or you can view the differences between two different models:
 {% youtube %}https://youtu.be/Sdr5jBhQk_4?list=PLCGmyoTJ5YJ-56CxzMGEqFCyel0fF5VIv{% endyoutube %}
+
+### Reverting to an earlier point in time
+The following video explains how to rvert back to an earlier version of a model:
+{% youtube %}https://youtu.be/SW1WCRRmXCM?list=PLCGmyoTJ5YJ-56CxzMGEqFCyel0fF5VIv{% endyoutube %}
 
