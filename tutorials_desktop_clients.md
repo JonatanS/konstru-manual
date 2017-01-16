@@ -2,7 +2,7 @@
 
 ## Upload a Model to Konstru
 ### Revit Upload Tutorial
-{% youtube %}https://youtu.be/6Ytxz_2Xhjs?list=PLCGmyoTJ5YJ-56CxzMGEqFCyel0fF5VIv{% endyoutube %}
+{% youtube %}https://youtu.be/PfPAxgYCHs0?list=PLCGmyoTJ5YJ-56CxzMGEqFCyel0fF5VIv{% endyoutube %}
 
 ### Tutorial: Batch-edit model data with Excel
 {% youtube %}https://youtu.be/6Ytxz_2Xhjs?list=PLCGmyoTJ5YJ-56CxzMGEqFCyel0fF5VIv{% endyoutube %}
