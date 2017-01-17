@@ -4,7 +4,7 @@
 {% youtube %}https://youtu.be/Kd9Trjz9JDM?list=PLCGmyoTJ5YJ-56CxzMGEqFCyel0fF5VIv{% endyoutube %}
 
 ## Collaborators/ Permissions
-{% youtube %}https://youtu.be/2KKwaZdKsyE?list=PLCGmyoTJ5YJ-56CxzMGEqFCyel0fF5VIv{% endyoutube %}
+{% youtube %}https://www.youtube.com/watch?v=2KKwaZdKsyE{% endyoutube %}
 
 We have 3 permission levels (Admin, Write and Read) for both Projects and Models.
 
@@ -21,7 +21,7 @@ At it's backend, Konstru has a powerful versioning database. This means that you
 
 ### Model Comparison
 The Konstru Web Application provides functionality to let you compare various states of a model. This means that you can keep exact track of what has changed from one version of a model to the next. Or you can view the differences between two different models:
-{% youtube %}https://youtu.be/Sdr5jBhQk_4?list=PLCGmyoTJ5YJ-56CxzMGEqFCyel0fF5VIv{% endyoutube %}
+{% youtube %}https://www.youtube.com/watch?v=Sdr5jBhQk_4{% endyoutube %}
 
 ### Reverting to an earlier point in time
 The following video explains how to rvert back to an earlier version of a model:
