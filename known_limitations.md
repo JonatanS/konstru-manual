@@ -1,27 +1,29 @@
-# Known Limitations
+# Known Limitations in Konstru \(beta\)
 
 # Revit
 
 ## IDs
 
-Keep in mind that two people using the same Konstru Model in Revit should sync their Revit Models using Worksharing. Otherwise they'll have different IDs in both local Models which might cause confusion.
+Two people using the same Konstru Model in Revit should sync their Revit Models using Worksharing. Otherwise, each model will have a different ID in both local Models, which might cause confusion.
 
 ## Elements
 
-Supported Konstru element types are: Columns, Braces, Beams, Floors, Walls, Grids, Groups, Levels. Analytical elements such as loads are not supported.
+Konstru currently supports the following element types: Columns, Braces, Beams, Floors, Walls, Grids, Groups, Levels.
+
+Analytical elements such as loads are not supported at this time.
 
 ## Openings
 
-Symbolic lines in openings might be interpreted as the opening outline. To avoid this either don't use them or make sure they have a line-style \(eg. Thin-Lines\) applied. This way Konstru can recognize them as annotations.
+Symbolic lines in openings might be interpreted as the opening outline. To avoid this misinterpretation, either do not use symbolic lines or make sure the symbolic lines have a line-style \(eg. Thin-Lines\) applied. When symbolic lines have a line-style, Konstru will recognize them as annotations.
 
 ## Adaptive Components
 
-Will be up and downloaded by Konstru if family and type are existing in the Revit file. They will be displayed in the web as spheres marking their location points.
+Adaptive Components will be uploaded and downloaded by Konstru if family and type exist in the Revit file. Adaptive Components  will be displayed on the web as spheres marking their location points.
 
 ## Names
 
 Revit does not support special characters in names for Levels or Grids. The following characters are allowed:  
-`A-Z a-z 0-9` and `. _-/'()"`. All Element names are written to the `Konstru_Name` Text parameter. It should be created automatically - if not, create it manually.
+`A-Z a-z 0-9` and `. _-/'()"`. All Element names are written to the `Konstru_Name` Text parameter. It should be created automatically. If the text parameter is not created automatically, you should create it manually.
 
 ## Custom Profiles
 
@@ -32,12 +34,12 @@ Revit handles profiles in the following order:
 
 ## Characters
 
-To make sure everything is working as expected limit characters in your type and element names to our list of supported characters:  
+To make sure everything is working as expected, limit characters in your type and element names to our list of supported characters:  
 `0-9` `A-Z` `a-z` `._-\/()"×<>[]ñÑÄÖÜäöü`
 
 # Excel
 
-Excel can only be used to manipulate parameter values, change sections \(by name\) and materials \(by name\). Geometries and IDs can not be modified.
+Excel can be used only to manipulate parameter values, change sections \(by name\), and change materials \(by name\). Geometries and IDs can not be modified using Excel.
 
 # SAP2000
 
@@ -47,7 +49,7 @@ SAP2000 supports the external plugins. Konstru is developed as plugin and can be
 
 ## Custom Profiles
 
-Custom sections in regular shapes \(I,C,W,Rectangular etc\) are supported. The irregular shapes currently are not translate via Konstru.
+Custom sections in regular shapes \(I,C,W,Rectangular etc\) are supported. The irregular shapes are not currently translated via Konstru.
 
 ## Grids
 
@@ -55,7 +57,7 @@ Grids are not supported in SAP2000 due to OAPI limitations.
 
 ## Levels
 
-There is no model object to represent Konstru levels in SAP. Not supported.
+There is no model object to represent Konstru levels in SAP. Levels are not supported in SAP.
 
 ## Openings
 
@@ -63,17 +65,17 @@ Openings are not supported in SAP.
 
 ## Analysis Elements
 
-Thermal Load assignments on joint, frame and area not supported  
+Thermal Load assignments on joint, frame and area not supported.  
 Uniform load to frame \(area loads\), Strain loads, surface pressure, temperature, wind pressure loads are not supported.  
 Diaphragms are not supported.
 
 ## Beams, Braces and Columns
 
-Beams, Braces and Columns are created as frame objects in SAP2000. Label \(is the unique name\) can be overwritten only if the Konstru name is not duplicated in another frame object.
+Beams, Braces, and Columns are created as frame objects in SAP2000. Label \(the unique name\) can be overwritten only if the Konstru name is not duplicated in another frame object.
 
-* Directions : There is no special frame direction, it can be drawn in any way possible. 
+Directions: There is no special frame direction. Frames can be drawn in any way possible. 
 
-## Floor and Walls
+## Floors and Walls
 
 Floors and Walls are created as area objects in SAP. The sloped area objects are currently ignored by Konstru but maintained in the model.
 
@@ -81,11 +83,11 @@ Floors and Walls are created as area objects in SAP. The sloped area objects are
 
 ## Plugin
 
-ETABS supports the external plugins. Konstru Cloud is developed as plugin and can be reached within ETABS models.
+ETABS supports the external plugins. Konstru connects to ETABS as plugin and can be reached within ETABS models.
 
 ## Custom Profiles
 
-Custom sections in regular shapes \(I,C,W,Rectangular etc\) are supported. Custom profiles can be created via Section Designer while Konstru download. The irregular shapes currently are not translated via Konstru.
+Custom sections in regular shapes \(I, C, W, Rectangular, etc\) are supported. Custom profiles can be created via Section Designer while Konstru download. The irregular shapes currently are not translated via Konstru.
 
 ## Grids
 
@@ -93,35 +95,35 @@ Grids are not supported in ETABS due to OAPI limitations.
 
 ## Levels
 
-Konstru Levels are stories in Etabs.
+Konstru Levels are stories in ETABS.
 
 ## Analysis Elements
 
-Thermal Load assignments on joint, frame and area not supported  
-Uniform load to frame \(area loads\), Strain loads, surface pressure, temperature, wind pressure loads are not supported.  
+Thermal Load assignments on joint, frame, and area not supported  
+Uniform load to frame \(area loads\), Strain loads, surface pressure, temperature, and wind pressure loads are not supported.  
 Diaphragms are not supported.
 
 ## Updates
 
-Due to OAPI limitations the area and frame's geometry currently cannot be updated.
+Due to OAPI limitations the area's geometry and frame's geometry currently cannot be updated.
 
 ## Beam, Column and  Braces
 
-Beams, Braces and Columns are created as frame objects in Etabs. Etabs automatically label the frames as B, D and C depends on the orientation. Vertical frames are columns, horizontal ones are beams and the all others are braces. Unique Name can be overwritten only if the Konstru name is not duplicated in another frame object.
+Beams, Braces, and Columns are created as frame objects in ETABS. ETABS automatically labels the frames as B, D, and C depending on the orientation. Vertical frames are columns, horizontal frames are beams, and the all others are braces. Unique Name can be overwritten only if the Konstru name is not duplicated in another frame object.
 
-* Directions: ETABS automatically flipped the frames \(start and end points\). ETABS flipped the frames per end point coordination. The start point is smaller in respective axis but this only correct when the member the parallel to x, y or z axis! the z axis is the governing axis for example when x and y values are negative values. so the lower z value is the start point. similarly if the z value is the same for both ends, the X axis is the governing axis for y values. so the lower x value is the start point.
+Directions: ETABS automatically flips the frames \(start and end points\). ETABS flips the frames per end point coordination. The start point is smaller in respective axis but this is only correct when the member the parallel to x, y or z axis. The z axis is the governing axis, for example, when x and y values are negative values. Therefore, the lower z value is the start point. Similarly, if the z value is the same for both ends, the X axis is the governing axis for y values. Therefore, the lower x value is the start point.
 
 ## Floor and Walls
 
 Floors and Walls are created as area objects in ETABS. The sloped area objects are currently ignored by Konstru but maintained in the model.
 
-The Etabs API does not support creating properties for area objects. This means Konstru won't be able to create wall or floor sections in ETABS automatically.
+The ETABS API does not support creating properties for area objects. Therefore, Konstru cannot automatically create wall or floor sections in ETABS.
 
 # Tekla
 
 ## Installation
 
-Due to the nature of how Tekla loads new tools and how we deploy Konstru, after the initial install, if nothing appears after hitting the Konstru toolbar button, a restart is required. This is necessary only once after the initial install.
+Due to the way Tekla loads new tools and how Konstru is deployed, after the initial install, if nothing appears after hitting the Konstru toolbar button, a restart is required. This restart is necessary only once after the initial install.
 
 ## Elements
 
