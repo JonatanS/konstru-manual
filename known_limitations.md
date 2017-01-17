@@ -73,7 +73,7 @@ Diaphragms are not supported.
 
 Beams, Braces, and Columns are created as frame objects in SAP2000. Label \(the unique name\) can be overwritten only if the Konstru name is not duplicated in another frame object.
 
-Directions: There is no special frame direction. Frames can be drawn in any way possible. 
+Directions: There is no special frame direction. Frames can be drawn in any way possible.
 
 ## Floors and Walls
 
@@ -87,7 +87,7 @@ ETABS supports the external plugins. Konstru connects to ETABS as plugin and can
 
 ## Custom Profiles
 
-Custom sections in regular shapes \(I, C, W, Rectangular, etc\) are supported. Custom profiles can be created via Section Designer while Konstru download. The irregular shapes currently are not translated via Konstru.
+Custom sections in regular shapes \(I, C, W, Rectangular, etc\) are supported. You can use the Section Designer to import custom sections during the Konstru download process. The irregular shapes currently are not translated via Konstru.
 
 ## Grids
 
