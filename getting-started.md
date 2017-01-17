@@ -67,24 +67,23 @@ For more details on Model Review, please view the **Tutorials** section.
 
 ## 7. Add Collaborators
 
-If you want to share this project with a colleague or client, you can add a 'Collaborator' in the _Project Settings_ tab  under _Collaborators_. Collaborators to a Konstru project are added to allow users that did not create the Project to interact with the Models and Versions that exist within a Project.
+If you want to share a project with a colleague or client, you can add 'Collaborators' in the _Project Settings_ tab under _Collaborators_. Collaborators to a Konstru project are users that did not create the Project but have certain permissions to interact with the Models and Versions that exist within a Project.
 
-You are able to choose the permission levels of your chosen Collaborators depending on whether you want them to control the project \(admin\), up/download models \(write\) or just view models \(read\). More info on permissions [here](the_web_user_interface.md).
+Users choose the permission levels of Collaborators. Collaborators can be allowed to \(1\) control the project \(_admin_\), \(2\) up/download models \(_write_\), or \(3\) view models \(_read_\). More info on permissions [here](the_web_user_interface.md).
 
-To add Collaborators to a Project: Open your Project, then access the _Project Settings_ interface as seen below. Type in the email of the person to add. If the person already has a Konstru account, select them from the drop-down. Else, you'll have to fill out their name and email. Next stop is to define the Permission's level for the collaborator \(see above\)...and then press _Save_.  
-The user will receive an email invite to join your project.
+**To add Collaborators to a Project**: Open your Project, then access the _Project Settings_ interface as seen below. Type in the email of the person you wish to add. If the person already has a Konstru account, select them from the drop-down. If the person does not have a Konstru account, you will have to enter their name and email. The next step is to define the Permissions level for the collaborator \(see above\)...and then press _Save_.
+
+The user will receive an email invite to join your project on Konstru.
 
 ![](images/GettingStarted/GS_Collabs.png)
 
-## 8. Download the model \(to a different application\)
+## 8. Download the model to a different application
 
-Launch the Konstru plugin from a different desktop application and select the ![](images/GettingStarted/desktop_download.PNG) button.
-
-Launch the Konstru plugin from the desktop application you are using. You should first check that the correct Project and Model are listed in the user interface, and if necessary use the 'Change Model' button. Secondly, you should review the specific Version you are about to download from the dropdown menu and ensure the the 'Delete existing Elements' button is unchecked.
+Launch the Konstru plugin from a different desktop application and select the ![](images/GettingStarted/desktop_download.PNG) button. You should first check that the correct Project and Model are listed in the user interface, and, if necessary, use the 'Change Model' button. Second, you should review the specific Version you are about to download from the dropdown menu and make sure that the 'Delete Existing Elements' button is **unchecked**.
 
 ![](/assets/DownloadSteps.png)
 
-'Delete existing elements' refers to objects that may be present in the platform model you are about download to, but are not part of the Konstru model you have chosen to download. Almost certainly there will be objects present in your platform model that are not present in the Konstru model \(tags etc\), thus you will want to ensure they are not deleted by unchecking this box.
+'Delete existing elements' refers to objects that may be present in the platform model you are about download to, but are not part of the Konstru model you have chosen to download. Almost certainly there will be objects present in your platform model that are not present in the Konstru model \(tags, etc\); therefore, you will want to make sure those elements are not deleted by unchecking this box.
 
-Note: Even if you forget to uncheck this button, you can prevent the changes from taking place to your model by canceling at the 'Staging' window.
+**Note**: Even if you forget to uncheck the "Delete Existing Elements" button, you can prevent the changes from overwriting your model by canceling the import at the 'Staging' window.
 
